@@ -9,7 +9,9 @@ def main(s):
     i=0
     count=0
     while i<=len(s)-1:
-        if s[i].isspace():
+        if not s[i].isidentifier():
             count+=1
         i+=1
     return count
+
+print (main("#hashtag@$"))

@@ -11,7 +11,9 @@ def main(s):
     s=s.lower()
     count=0
     while i<=len(s)-1:
-        if s[i]!="a" or s[i]!="e" or s[i]!="i" or s[i]!="o" or s[i]!="u":
+        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u":
             count+=1
         i+=1
     return count
+
+print(main("CodeschoolUz"))
