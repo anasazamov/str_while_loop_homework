@@ -9,11 +9,11 @@ def main(s):
     """
     i=0
     s=s.lower()
-    count=0
+    answer=0
     while i<len(s):
-        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u":
-            count+=1
+        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u" and s[i].isalpha():
+            answer+=1
         i+=1
-    return count
+    return answer
 
-print(main("CodeschoolUz"))
+print(main("NNFcisndcinscnW9JCNASKZCNA126516UKBHCKJJCNOAHOIEDNOIQNAIUODNXUQIHWAISXNI"))
