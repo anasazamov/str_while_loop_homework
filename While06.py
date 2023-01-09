@@ -10,7 +10,7 @@ def main(s):
     i=0
     s=s.lower()
     count=0
-    while i<=len(s)-1:
+    while i<len(s):
         if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u":
             count+=1
         i+=1
