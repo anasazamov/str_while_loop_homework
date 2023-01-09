@@ -9,7 +9,7 @@ def main(s):
     i=0
     count=0
     while i<=len(s)-1:
-        if s[i].ispace():
+        if s[i].isspace():
             count+=1
         i+=1
     return count

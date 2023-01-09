@@ -9,5 +9,8 @@ def main(s):
     i=0
     answer=0
     while i<len(s):
-        answer+=s[i]
+        answer+=int(s[i])
+        i+=1
     return answer
+
+print(main("987654"))
