@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    count=0
+    while i<=len(s)-1:
+        if s[i].isnumeric():
+            count+=1
+        i+=1
+    return count
