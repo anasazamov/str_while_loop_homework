@@ -1,3 +1,4 @@
+from string import punctuation
 def main(s):
     """
     A variable of type str is given. Find how many punctuations it contains and return.
@@ -9,7 +10,7 @@ def main(s):
     i=0
     count=0
     while i<=len(s)-1:
-        if not s[i].isidentifier():
+        if not s[i].strip(punctuation):
             count+=1
         i+=1
     return count

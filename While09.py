@@ -12,5 +12,3 @@ def main(s):
         answer+=int(s[i])
         i+=1
     return answer
-
-print(main("987654"))
